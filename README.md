@@ -1,8 +1,9 @@
-To log in as an administrator, enter the following information:
+A reservation system with admin and user environments.
 
-username:admin
-password:admin
+For account admin login credentials:
 
-Also in case the size of the package does not fit, embed it in the sql archive:
+ username : admin
+ password : admin
+In the case that the databse file doesn't upload use the following sql query in phpMyadmin:
 
-SET GLOBAL max_allowed_packet= 256*1024*1024;
+              SET GLOBAL MAX_ALLOWED_PACKET=1000000000;
