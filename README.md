@@ -1,6 +1,3 @@
-# Cinema-Reservation-System
-A reservation system with customer-admin enviroment!
-
 To log in as an administrator, enter the following information:
 
 username:admin
