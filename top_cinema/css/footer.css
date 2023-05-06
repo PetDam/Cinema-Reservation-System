@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+.html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Didact Gothic", sans-serif;
+  color: #222;
+}
+
+nav.navbar {
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.navbar-nav {
+  padding: rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+span.badge {
+  background-color: rgba(13, 152, 186, 0.8);
+  padding: 2px 2px;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #c1558b;
+}
+
+.fa-twitter {
+  color: #326ada;
+}
+
+.fa-envelope {
+  color: #253c7c;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-envelope:hover {
+  color: #484848;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 10px;
+}
+
+hr.main {
+  border-top: 1px solid #3f3f3f;
+
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*--- Carousel  ---*/
+#demo .carousel-item img {
+  object-fit: fill;
+
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
