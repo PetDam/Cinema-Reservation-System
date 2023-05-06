@@ -1,7 +1,6 @@
 For account admin login credentials:
 
- username : admin
- 
+ username : admin                                                                                                                                                              
  password : admin
  
 In the case that the databse file doesn't upload use the following sql query in phpMyadmin:
